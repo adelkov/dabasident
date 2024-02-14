@@ -1,0 +1,49 @@
+:root {
+  /* font family */
+  --font-family: "Roboto Slab", sans-serif;
+  /* colors */
+  --site-bg-color: #fff;
+  --container-bg-color: #fff;
+  --placeholder-dark-color: #ebebeb;
+  --placeholder-light-color: #f5f5f5;
+  --dangerous-color: hsl(352, 78%, 68%);
+  --dangerous-hover-color: hsl(352, 74%, 64%);
+  --warning-color: #da9a06;
+  --dark-text-color: hsl(0, 0%, 10%);
+  --light-text-color: hsl(0, 0%, 46%);
+  --primary-select-color: hsl(190, 100%, 38%);
+  --secondary-select-color: hsl(190, 40%, 72%);
+  --primary-button-bg-color: #004587;
+  --primary-button-bg-hover-color: #212529;
+  --primary-button-text-color: #fff;
+  --active-green-color: #78d35f;
+  --inactive-grey-color: #a7a7a7;
+  --steps-bg-color: #fff;
+  --spacer-grey-color: #d1e0e6;
+  --form-widget-color: white;
+  --form-widget-border-color: #dedede;
+  --form-widget-border-hover-color: #aaa;
+  --box-shadow-color: rgba(0, 0, 0, 0.075);
+  --transparent-color: rgba(0, 0, 0, 0);
+  /* levels */
+  --hero-section-level: 15;
+  --header-level: 16;
+  --header-logo-container-level: 17;
+  --header-logo-level: 18;
+  --content-above-level: 19;
+  --popup-level: 20;
+  /* sizes */
+  --text-input-width: 30rem;
+  --outline-offset: 0.2rem;
+  --widget-height: 2.7rem;
+  /* font-sizes */
+  --text-title-size: 1.8rem;
+  --text-heading-size: 1.5rem;
+  --text-default-size: 1.3rem;
+  --text-small-size: 1.1rem;
+  --button-default-size: 1.3rem;
+  /* shorthands */
+  --outline: 0.3rem solid transparent;
+  --focus-border: var(--outline);
+  --box-shadow: 0 0 0.2rem 0.2rem var(--box-shadow-color);
+}
